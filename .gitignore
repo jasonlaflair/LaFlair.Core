@@ -4,3 +4,10 @@ obj
 
 # mstest test results
 TestResults
+
+*.csproj.user
+*.suo
+_ReSharper.*
+
+# nuget packages
+/src/packages/**
