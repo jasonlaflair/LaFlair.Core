@@ -10,7 +10,7 @@ namespace LaFlair.Core.Repository
     internal class Repository<T> : IRepository<T> where T : class
     {
         public Repository()
-            : this(Container.Resolve<ISession>())
+            : this(ContainerFactory.Resolve<ISession>())
         {
             
         }

@@ -3,7 +3,7 @@
 namespace LaFlair.Core.IoC
 {
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Interface, AllowMultiple = false, Inherited = false)]
-    public class ContainerVisibleAttribute : Attribute
+    public class ContainerFactoryVisibleAttribute : Attribute
     {
     }
 }
